@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 100px;
+}
+
+.container {
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: white;
+    height: 300px;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+.child {
+    background-color: wheat;
+    height: 290px;
+    width: 241px;
+    margin: 3px 2px;
+    display: inline-block;  
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+.right-btn {
+    top:  100;
+    right: 0;
+}
+
